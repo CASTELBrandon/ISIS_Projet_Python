@@ -1,11 +1,9 @@
-import fonctions_annexes as fa
+import test
 
-def main():
-    fa.saisieCoordonnes()
-    fa.connectionEtEnvoi()
-
+def main():    
+    test.saisieCoordonnes()
+    test.connection()
 
 
 if __name__ == "__main__":
     main()
-
